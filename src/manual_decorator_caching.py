@@ -1,5 +1,4 @@
 # Import the required modules
-from functools import lru_cache
 import time
 import requests
 
