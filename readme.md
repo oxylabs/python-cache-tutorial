@@ -158,6 +158,7 @@ print('Time taken (memoized function using manual decorator):', time.time() - st
 ```
 
 And here’s the output:
+
 ![](images/output_normal_memoized.png)
 
 Notice the time difference between the two functions. Both take almost
@@ -231,6 +232,7 @@ print('Time taken (memoized function with LRU cache):', time.time() - start_time
 ```
 
 This produced the following output:
+
 ![](images/output_normal_lru.png)
 
 ### Performance comparison
@@ -248,6 +250,7 @@ three functions for different numbers of requests to these functions:
 As the number of requests to the functions increases, you can see a
 significant reduction in execution times using the caching strategy. The
 following comparison chart depicts these results:
+
 ![](images/comparison-chart.png)
 
 The comparison results clearly show that using a caching strategy in
