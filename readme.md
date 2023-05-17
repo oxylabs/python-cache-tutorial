@@ -1,4 +1,9 @@
 # Python Cache: How to Speed Up Your Code with Effective Caching
+  * [How to implement a cache in Python](#how-to-implement-a-cache-in-python)
+    + [Install the required libraries](#install-the-required-libraries)
+    + [Method 1: Python caching using a manual decorator](#method-1-python-caching-using-a-manual-decorator)
+    + [Method 2: Python caching using LRU cache decorator](#method-2-python-caching-using-lru-cache-decorator)
+    + [Performance comparison](#performance-comparison)
 
 This article will show you how to use caching in Python with your web
 scraping tasks. You can read the [<u>full
